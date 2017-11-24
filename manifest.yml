@@ -1,0 +1,7 @@
+applications:
+- name: elevator-iotreceiver-ewk
+  host: elevator-iotreceiver-ewk
+  memory: 256M
+  services:
+    - dashDB for Analytics-4e
+    - iotf-service

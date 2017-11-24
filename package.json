@@ -1,0 +1,23 @@
+{
+  "name": "iotreceiver",
+  "version": "1.0.0",
+  "description": "feeds iot messages into database",
+  "main": "iotreceiver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node iotreceiver.js"
+  },
+  "engines": {
+    "node": "0.6.*"
+  },
+  "author": "Rene Meyer, Einar Karlsen",
+  "license": "MIT",
+  "dependencies": {
+    "cfenv": "^1.0.4",
+    "dotenv": "^4.0.0",
+    "http": "0.0.0",
+    "ibm_db": "^2.2.1",
+    "ibmiotf": "0.2.39",
+    "string-template": "*"
+  }
+}

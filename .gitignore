@@ -1,0 +1,4 @@
+.env
+vcap-local.json
+node_modules
+test

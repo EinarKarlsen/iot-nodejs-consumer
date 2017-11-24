@@ -1,0 +1,6 @@
+node_modules
+test
+Dockerfile
+.env.example
+vcap-local.json
+vcap-local.example.json

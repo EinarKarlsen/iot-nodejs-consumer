@@ -1,0 +1,44 @@
+{
+  "services": {
+      "dashDB": [
+          {
+              "credentials": {
+                  "port": 50000,
+                  "db": "<placeholder>",
+                  "username": "<placeholder>",
+                  "ssljdbcurl": "<placeholder>",
+                  "host": "<placeholder>",
+                  "https_url": "<placeholder>",
+                  "dsn": "<placeholder>",
+                  "hostname": "<placeholder>",
+                  "jdbcurl": "<placeholder>B",
+                  "ssldsn": "<placeholder>",
+                  "uri": "<placeholder>",
+                  "password": "<placeholder>"
+              },
+              "label": "dashDB",
+              "name": "dashDB for Analytics-4e",
+              "tags": [
+              ]
+          }
+      ],
+      "iotf-service": [
+          {
+              "credentials": {
+                  "iotCredentialsIdentifier": "<placeholder>",
+                  "mqtt_host": "<placeholder>",
+                  "mqtt_u_port": 0,
+                  "mqtt_s_port": 0,
+                  "http_host": "<placeholder",
+                  "org": "<placeholder>",
+                  "apiKey": "<placeholder>",
+                  "apiToken": "<placeholder>"
+              },
+              "label": "iotf-service",
+              "name": "iotf-service",
+              "tags": [
+              ]
+          }
+      ]
+  }
+}
